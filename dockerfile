@@ -6,6 +6,8 @@ WORKDIR /app
 COPY . /app
 # Install Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
+# Copy SSL certificates from the certs directory
+COPY certs /app/certs
 # Expose the port the app runs on
 EXPOSE 8001
 # Command to run the FastAPI app with Uvicorn
