@@ -1,8 +1,14 @@
+import os
 import groq
 from dotenv import load_dotenv
 from groq import Groq
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
+
+load_dotenv()  # Charge les variables d'environnement du fichier .env
+
+api_key = os.getenv("GROQ_API_KEY")
+client = Groq(api_key=api_key)
 
 app = FastAPI()
 
