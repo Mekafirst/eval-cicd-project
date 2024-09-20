@@ -1,4 +1,5 @@
 import groq
+from dotenv import load_dotenv
 from groq import Groq
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
