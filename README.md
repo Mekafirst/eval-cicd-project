@@ -1,3 +1,5 @@
+[![Publish Docker image](https://github.com/Mekafirst/eval-cicd-project/actions/workflows/docker-deploy.yml/badge.svg)](https://github.com/Mekafirst/eval-cicd-project/actions/workflows/docker-deploy.yml)
+
 - Création du compte groq et fénération de la clé API
 ![image](https://github.com/user-attachments/assets/f08d5046-afbc-48f9-b511-495899ed16ba)
 
@@ -82,5 +84,15 @@ Création du repo sur dockerhub
 Ajout des secrets sur github
 
 ![image](https://github.com/user-attachments/assets/7766e4e7-766b-4a6e-9173-e5755fe2ddff)
+
+Création des tests dans le .github/workflows/docker-deploy.yml
+
+![image](https://github.com/user-attachments/assets/f60c1107-1458-46b6-bdec-22b60f0cbe72)
+
+
+Déroulé des codes en vert \o/
+
+![image](https://github.com/user-attachments/assets/5afbe964-b128-45b9-9a31-46b27737110c)
+
 
 
