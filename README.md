@@ -65,3 +65,22 @@ Et la réponse fut :
 ![image](https://github.com/user-attachments/assets/2ef80c2f-c6a8-481c-91d3-d7bcba09d63e)
 
 
+- Git management
+Passage sur la branche dev
+
+git checkout -b dev
+
+![image](https://github.com/user-attachments/assets/f430ad43-3046-475e-a954-bfcdaa2469fe)
+
+
+
+# Dockerhub
+Création du repo sur dockerhub
+
+![image](https://github.com/user-attachments/assets/2fb16fdd-c249-4c9f-891f-e7234b1a26ea)
+
+Ajout des secrets sur github
+
+![image](https://github.com/user-attachments/assets/7766e4e7-766b-4a6e-9173-e5755fe2ddff)
+
+
