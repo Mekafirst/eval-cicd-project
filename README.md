@@ -25,17 +25,11 @@ L'application démarre youhou !
 
 - Création du dockerfile 
 
-# Start with the FastAPI base image
 FROM tiangolo/uvicorn-gunicorn:python3.11
-# Set the working directory
 WORKDIR /app
-# Copy the application code and requirements
 COPY . /app
-# Install Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
-# Expose the port the app runs on
 EXPOSE 8001
-# Command to run the FastAPI app with Uvicorn
 CMD ["uvicorn", "app.mini-groq:app", "--host", "0.0.0.0", "--port", "8001"]
 
 - On teste de build et de run le docker, this is fine
@@ -43,4 +37,9 @@ CMD ["uvicorn", "app.mini-groq:app", "--host", "0.0.0.0", "--port", "8001"]
 docker build -t groq-api .     
 docker run -p 8001:8001 groq-api
 
-Et ça se lance !
+Et ça se lance :
+
+![image](https://github.com/user-attachments/assets/f873e5bf-00e4-4668-bace-6d586fbc341b)
+
+
+
