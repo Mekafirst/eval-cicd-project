@@ -11,5 +11,6 @@ api_key = os.getenv("GROQ_API_KEY")
 client = Groq(api_key=api_key)
 
 L'application démarre youhou !
+![image](https://github.com/user-attachments/assets/a02a8f0d-f91e-4348-ac0e-98d349e20309)
 
 
