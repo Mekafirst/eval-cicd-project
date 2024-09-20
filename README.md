@@ -53,5 +53,15 @@ Et ça se lance :
 
 ![image](https://github.com/user-attachments/assets/f873e5bf-00e4-4668-bace-6d586fbc341b)
 
+- Petit ping du serveur au cas où :
+![image](https://github.com/user-attachments/assets/1fadbab1-59b3-475d-b70a-a06c810b96cd)
+
+- Création d'un test.sh pour trigger le /chat et poser la question fatidique "what is a llm" (on oublie pas de le chmod +x évidemment)
+  
+![image](https://github.com/user-attachments/assets/d97a6c6b-72b3-4b59-b2c6-dcffd88308e6)
+
+Et la réponse fut :
+
+![image](https://github.com/user-attachments/assets/2ef80c2f-c6a8-481c-91d3-d7bcba09d63e)
 
 
