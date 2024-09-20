@@ -11,4 +11,4 @@ COPY certs /app/certs
 # Expose the port the app runs on
 EXPOSE 8001
 # Command to run the FastAPI app with Uvicorn
-CMD ["uvicorn", "app.mini-groq:app", "--host", "0.0.0.0", "--port", "8001"]
+CMD ["uvicorn", "app.minigroq:app", "--host", "0.0.0.0", "--port", "8001"]
